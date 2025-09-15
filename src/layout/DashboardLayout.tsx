@@ -56,8 +56,8 @@ export const DashboardLayout: React.FC = () => {
       <header className="top-bar">
         <div className="logo-area">
           <img src="/logotipo%20principal.png" alt="Logo" className="logo" />
-          <h1>Industrial Control</h1>
         </div>
+        <div className="title-center"><h1>Industrial Control</h1></div>
         <div className="top-actions">
           <button className="ghost" onClick={()=> setTheme(t=> t==='light' ? 'dark':'light')}>{theme==='light'?'Dark':'Light'} Mode</button>
           <button className="ghost">Modo AR</button>
